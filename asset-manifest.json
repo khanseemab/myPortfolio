@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.e76a8ddd.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.40b0e467.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.40b0e467.chunk.js.map",
-    "runtime-main.js": "/myPortfolio/static/js/runtime-main.a2f877e0.js",
-    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.a2f877e0.js.map",
-    "static/js/2.5e2cd343.chunk.js": "/myPortfolio/static/js/2.5e2cd343.chunk.js",
-    "static/js/2.5e2cd343.chunk.js.map": "/myPortfolio/static/js/2.5e2cd343.chunk.js.map",
-    "index.html": "/myPortfolio/index.html",
-    "precache-manifest.773c497ba5618c13c8ba722fed07a292.js": "/myPortfolio/precache-manifest.773c497ba5618c13c8ba722fed07a292.js",
-    "service-worker.js": "/myPortfolio/service-worker.js",
-    "static/css/main.e76a8ddd.chunk.css.map": "/myPortfolio/static/css/main.e76a8ddd.chunk.css.map",
-    "static/js/2.5e2cd343.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.5e2cd343.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/myPortfolio/static/media/7038048-purple-dark-smoke.4f43aba5.jpg",
-    "static/media/Seemab's_Resume.pdf": "/myPortfolio/static/media/Seemab's_Resume.013dbf9d.pdf",
-    "static/media/clock.png": "/myPortfolio/static/media/clock.ae48805f.png",
-    "static/media/paymentform.png": "/myPortfolio/static/media/paymentform.f5b0453f.png",
-    "static/media/profileimage.jpg": "/myPortfolio/static/media/profileimage.36b406c1.jpg"
+    "main.css": "/static/css/main.c8f556be.chunk.css",
+    "main.js": "/static/js/main.40b0e467.chunk.js",
+    "main.js.map": "/static/js/main.40b0e467.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.48d21ee8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.48d21ee8.js.map",
+    "static/js/2.5e2cd343.chunk.js": "/static/js/2.5e2cd343.chunk.js",
+    "static/js/2.5e2cd343.chunk.js.map": "/static/js/2.5e2cd343.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.00fd1be5edddb627660bdb0ef17c8bd0.js": "/precache-manifest.00fd1be5edddb627660bdb0ef17c8bd0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c8f556be.chunk.css.map": "/static/css/main.c8f556be.chunk.css.map",
+    "static/js/2.5e2cd343.chunk.js.LICENSE.txt": "/static/js/2.5e2cd343.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/7038048-purple-dark-smoke.4f43aba5.jpg",
+    "static/media/Seemab's_Resume.pdf": "/static/media/Seemab's_Resume.013dbf9d.pdf",
+    "static/media/clock.png": "/static/media/clock.ae48805f.png",
+    "static/media/paymentform.png": "/static/media/paymentform.f5b0453f.png",
+    "static/media/profileimage.jpg": "/static/media/profileimage.36b406c1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2f877e0.js",
+    "static/js/runtime-main.48d21ee8.js",
     "static/js/2.5e2cd343.chunk.js",
-    "static/css/main.e76a8ddd.chunk.css",
+    "static/css/main.c8f556be.chunk.css",
     "static/js/main.40b0e467.chunk.js"
   ]
 }
