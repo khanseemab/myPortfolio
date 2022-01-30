@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.87e33c0b.chunk.css",
-    "main.js": "/static/js/main.9eca5b70.chunk.js",
-    "main.js.map": "/static/js/main.9eca5b70.chunk.js.map",
+    "main.css": "/static/css/main.974641a0.chunk.css",
+    "main.js": "/static/js/main.540d8abc.chunk.js",
+    "main.js.map": "/static/js/main.540d8abc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48d21ee8.js",
     "runtime-main.js.map": "/static/js/runtime-main.48d21ee8.js.map",
     "static/js/2.5e2cd343.chunk.js": "/static/js/2.5e2cd343.chunk.js",
     "static/js/2.5e2cd343.chunk.js.map": "/static/js/2.5e2cd343.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.78797835986c8d58422cab381a210961.js": "/precache-manifest.78797835986c8d58422cab381a210961.js",
+    "precache-manifest.791fb5654831dff1928951b2ac9ceb24.js": "/precache-manifest.791fb5654831dff1928951b2ac9ceb24.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.87e33c0b.chunk.css.map": "/static/css/main.87e33c0b.chunk.css.map",
+    "static/css/main.974641a0.chunk.css.map": "/static/css/main.974641a0.chunk.css.map",
     "static/js/2.5e2cd343.chunk.js.LICENSE.txt": "/static/js/2.5e2cd343.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/static/media/7038048-purple-dark-smoke.4f43aba5.jpg",
     "static/media/Seemab's_Resume.pdf": "/static/media/Seemab's_Resume.013dbf9d.pdf",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.48d21ee8.js",
     "static/js/2.5e2cd343.chunk.js",
-    "static/css/main.87e33c0b.chunk.css",
-    "static/js/main.9eca5b70.chunk.js"
+    "static/css/main.974641a0.chunk.css",
+    "static/js/main.540d8abc.chunk.js"
   ]
 }
