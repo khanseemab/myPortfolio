@@ -1,0 +1,55 @@
+
+
+.Contact {
+  width: 100%;
+  padding-top: 14rem;
+  position: relative;
+  padding-bottom: 5rem;
+  background-color: var(--primary-color);
+  
+
+}
+
+
+
+.contact-text {
+  color: var(--white);
+  font-size: 2.5rem;
+}
+
+.port-footer {
+  /* padding-top: 6rem; */
+  width: 100%;
+  background-color: var(--primary-color);
+  
+
+}
+
+.port-footer-container {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+
+.footer-custom-text {
+  font-size: 1.9rem;
+}
+
+.contact-icons {
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  font-size: 1.9rem;
+}
+
+.contact-icons:hover {
+  -webkit-transform: translateY(-0.2rem) scale(1.5) rotate(360deg);
+  -ms-transform: translateY(-0.2rem) scale(1.5) rotate(360deg);
+  transform: translateY(-0.2rem) scale(1.5) rotate(360deg);
+  color: var(--secondary-color) !important;
+}
+
+.contact-icons:active {
+  -webkit-transform: translateY(-0.1rem);
+  -ms-transform: translateY(-0.1rem);
+  transform: translateY(-0.1rem);
+}

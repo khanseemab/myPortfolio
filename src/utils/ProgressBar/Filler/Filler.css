@@ -1,0 +1,12 @@
+.filler {
+  /* background: rgb(2, 0, 36); */
+  /* background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 1)), color-stop(39%, rgba(9, 9, 121, 1)), to(rgba(0, 212, 255, 1))); */
+  /* background: -o-linear-gradient(left, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 39%, rgba(0, 212, 255, 1) 100%); */
+  /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 39%, rgba(0, 212, 255, 1) 100%); */
+  background: #41295a;
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a, var(--primary-color-light));
+  background: linear-gradient(to right, #2F0743, #41295a, var(--primary-color-light));
+
+  height: 100%;
+  border-radius: inherit;
+}

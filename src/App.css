@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #06020f;
+  --primary-color-medium: rgb(13, 6, 32);
+  --primary-color-light: rgb(127, 13, 255);
+  --secondary-color: rgb(0, 255, 255);
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --grey-light:#A8B2D1;
+}
+
+html{
+  background-color: var(--primary-color);
+}

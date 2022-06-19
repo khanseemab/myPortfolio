@@ -1,0 +1,169 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.toolbar {
+  position: fixed;
+  width: 100%;
+  background-color: var(--primary-color);
+  height: 10vh;
+  margin-bottom: 20rem;
+  z-index: 50;
+  -webkit-box-shadow: var(--primary-color) .6rem .3rem 2.4rem;
+  box-shadow: var(--primary-color) .6rem .3rem 2.4rem;
+
+}
+
+
+
+.toolbar__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+
+
+
+
+.toolbar__logo {
+  margin-left: 1rem;
+}
+
+.toolbar__logo a {
+  font-weight: bolder;
+  font-size: larger;
+  color: var(--white);
+  padding: 0;
+  font-size: 2.4rem;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 6px;
+}
+
+
+.toolbar__logo a:hover,
+.toolbar__logo a:active {
+  text-decoration: none;
+}
+
+.toolbar__logo a span {
+  color: var(--secondary-color);
+}
+
+
+.spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toolbar_navigation-items li {
+  list-style: none;
+  padding: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0 2rem;
+}
+
+
+.toolbar_navigation-items ul li a {
+  margin: 6px;
+  color: var(--white);
+  display: block;
+  position: relative;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  -webkit-transition: 0.5s;
+
+  -o-transition: 0.5s;
+
+  transition: 0.5s;
+}
+
+.toolbar_navigation-items ul li a:before {
+  content: '';
+  width: 0;
+  border-radius: 2px;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00ffff), color-stop(#26fff5), color-stop(#3dffea), color-stop(#50ffde), color-stop(#61ffd3), color-stop(#73ffc6), color-stop(#85ffb8), color-stop(#97ffab), color-stop(#afff9a), color-stop(#c7fe8a), color-stop(#e0fb7c), to(#f9f871));
+  background-image: -o-linear-gradient(left, #00ffff, #26fff5, #3dffea, #50ffde, #61ffd3, #73ffc6, #85ffb8, #97ffab, #afff9a, #c7fe8a, #e0fb7c, #f9f871);
+  background-image: linear-gradient(to right, #00ffff, #26fff5, #3dffea, #50ffde, #61ffd3, #73ffc6, #85ffb8, #97ffab, #afff9a, #c7fe8a, #e0fb7c, #f9f871);
+  -webkit-transition: width .5s;
+  -o-transition: width .5s;
+  transition: width .5s;
+}
+
+.toolbar_navigation-items ul li a:hover:before,
+.toolbar_navigation-items ul li a:focus:before {
+  width: 100%;
+}
+
+
+
+
+
+@media (min-width:765px) and (max-width:1000px) {
+
+  .toolbar_navigation-items li {
+    margin: 0 .6rem;
+  }
+
+  .toolbar__logo {
+    font-size: .6rem;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .toolbar_navigation-items {
+    display: none;
+  }
+
+  .toolbar__navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .toolbar__logo {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width:320px) {
+  .toolbar__logo a {
+    font-size: 1.4rem;
+
+  }
+}

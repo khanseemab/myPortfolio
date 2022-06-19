@@ -1,0 +1,63 @@
+.form-control {
+  background-color: var(--primary-color-medium);
+  border-radius: 1rem;
+  border-color: rgb(0, 217, 255);
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+.form-control::-webkit-input-placeholder {
+  font-size: 1.2rem;
+  opacity: 1;
+  
+}
+
+.form-control::-moz-placeholder {
+  font-size: 1.2rem;
+  opacity: 1;
+  color: var(--primary-color-light);
+
+}
+
+.form-control:-ms-input-placeholder {
+  font-size: 1.2rem;
+  opacity: 1;
+  color: var(--primary-color-light);
+
+}
+
+.form-control::-ms-input-placeholder {
+  font-size: 1.2rem;
+  opacity: 1;
+  color: var(--primary-color-light);
+
+}
+
+.form-control::placeholder {
+  font-size: 1.2rem;
+  opacity: 1;
+  color: rgb(0, 217, 255);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+.btn-block {
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  background-color: var(--secondary-color);
+  color: black;
+}
+.btn-block:hover{
+  background-color: rgb(0, 245, 172);
+  color: black;
+}
+
+.form-control:focus {
+  background-color: var(--primary-color-medium);
+  border-color: rgb(0, 255, 191);
+  color: var(--white);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

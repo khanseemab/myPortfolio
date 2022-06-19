@@ -1,0 +1,130 @@
+
+
+.side-drawer {
+  height: 100%;
+  /* background-color: #0d161d; */
+  background: var(--primary-color);
+  /* fallback for old browsers */
+  -webkit-box-shadow: .1rem 0px .7rem rgba(0, 0, 0, 0.5);
+  box-shadow: .1rem 0px .7rem rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 40rem;
+  z-index: 200;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  -webkit-transition-property: background, -webkit-transform;
+  transition-property: background, -webkit-transform;
+  -o-transition-property: transform, background;
+  transition-property: transform, background;
+  transition-property: transform, background, -webkit-transform;
+  -webkit-transition-duration: .3s, .5s;
+  -o-transition-duration: .3s, .5s;
+  transition-duration: .3s, .5s;
+}
+
+
+
+.open {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.sidedrawer_logo {
+  width: 44%;
+  height: 16%;
+}
+
+.horizontal-line {
+  border: var(--white) solid .5px;
+  border-radius: 2rem;
+  width: 75%;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+
+
+.side-drawer ul {
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.side-drawer li {
+  margin: 1.5rem 0;
+}
+
+.side-drawer a {
+  position: relative;
+  color: var(--white);
+  font-size: 2.0rem;
+  font-weight: 600;
+  text-decoration: none;
+  /* -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-bottom: .3rem solid transparent;
+  border-top: .3rem solid transparent; */
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+.side-drawer ul li a:before {
+  content: '';
+  width: 0;
+  border-radius: 2px;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00ffff), color-stop(#26fff5), color-stop(#3dffea), color-stop(#50ffde), color-stop(#61ffd3), color-stop(#73ffc6), color-stop(#85ffb8), color-stop(#97ffab), color-stop(#afff9a), color-stop(#c7fe8a), color-stop(#e0fb7c), to(#f9f871));
+  background-image: -o-linear-gradient(left, #00ffff, #26fff5, #3dffea, #50ffde, #61ffd3, #73ffc6, #85ffb8, #97ffab, #afff9a, #c7fe8a, #e0fb7c, #f9f871);
+  background-image: linear-gradient(to right, #00ffff, #26fff5, #3dffea, #50ffde, #61ffd3, #73ffc6, #85ffb8, #97ffab, #afff9a, #c7fe8a, #e0fb7c, #f9f871);
+  -webkit-transition: width .5s;
+  -o-transition: width .5s;
+  transition: width .5s;
+}
+
+.side-drawer ul li a:hover:before,
+.toolbar_navigation-items ul li a:focus:before {
+  width: 100%;
+}
+
+
+/* .side-drawer a:hover,
+.side-drawer a:active {
+  border-bottom: 2px solid rgb(0, 153, 255);
+  border-top: 2px solid rgb(0, 153, 255);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+} */
+
+@media (max-width:320px) {
+  .side-drawer a {
+    font-size: .8rem;
+  }
+}

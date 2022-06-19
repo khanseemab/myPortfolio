@@ -1,0 +1,34 @@
+
+.about {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding-top: 8.5rem;
+  padding-bottom: 8.5rem;
+  position: relative;
+}
+
+
+.about-title {
+  max-width: 57rem;
+}
+
+.about-detail{
+  color: rgb(0, 217, 255);
+}
+
+.about-maintext {
+  padding: 2rem;
+  /* font-size: 1.6rem; */
+  color: var(--white);
+  font-size: 17px;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+
+}
+
+.about-work {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  
+}
